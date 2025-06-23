@@ -17,7 +17,7 @@ Assistência administrativa, entrada de dados, desenvolvimento web, web design, 
 ## 📸 Screenshot
 
 <p>
-  <img src="./preview.png" alt="Preview da aplicação" width="800" />
+  <img src="./assets/img/preview.png" alt="Preview da aplicação" width="800" />
 </p>
 
 [👉 Clique aqui para visitar meu portfólio](https://ivanna-almeida-portfolio.vercel.app)
