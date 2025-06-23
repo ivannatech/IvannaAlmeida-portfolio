@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivanna Almeida - Estruturação de Negócio Online</title>
+  <meta names="keywords" content="Ivanna-Tech, FrontEnd, developer, web, Javascript, CSS, HTML, Git" />
+  <meta name="description"
+    content="Desenvolvedora Full Stack focada em transformar ideias em soluções digitais funcionais, modernas e sob medida, com soluções completas para estruturação de negócios online">
+  <meta name="author" content="Ivanna Tech (Ivanna Almeida)" />
+
+  <!-- Indexação -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/71414590?s=96&v=4" type="image/png">
+
+  <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+  <meta property="og:title" content="Ivanna Tech | Desenvolvedora em retomada">
+  <meta property="og:description"
+    content="Crio sites e apps rápidos, responsivos e com foco no seu negócio. Deixe a tecnologia por minha conta e foque no que importa: seu crescimento.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/71414590?s=96&v=4">
+  <meta property="og:url" content="https://github.com/ivannatech">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ivanna Tech | Desenvolvedora em retomada">
+  <meta name="twitter:description"
+    content="Crio sites e apps rápidos, responsivos e com foco no seu negócio. Deixe a tecnologia por minha conta e foque no que importa: seu crescimento.">
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/71414590?s=96&v=4">
+
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <h2>Ivanna Almeida - Web Developer</h2>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Estruture seu <span class="highlight">Negócio Online</span> com Excelência
+          </h1>
+          <p class="hero-description">
+            Transformo sua visão em uma presença digital profissional.
+            Sites modernos, identidade visual marcante e ferramentas que fazem seu negócio crescer.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contato" class="btn btn-primary">Começar Agora</a>
+            <a href="#servicos" class="btn btn-secondary">Ver Serviços</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <svg width="400" height="300" viewBox="0 0 400 300" fill="none">
+              <rect width="400" height="300" rx="12" fill="url(#gradient1)" />
+              <circle cx="200" cy="150" r="60" fill="white" opacity="0.1" />
+              <circle cx="200" cy="150" r="40" fill="white" opacity="0.2" />
+              <circle cx="200" cy="150" r="20" fill="white" opacity="0.3" />
+              <defs>
+                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#4b5563" />
+                  <stop offset="100%" style="stop-color:#7700ff" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="servicos" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Serviços</h2>
+        <p>Ofereço soluções completas para estruturar e fazer crescer seu negócio online</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M2 12h20" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+          </div>
+          <h3>Website Profissional</h3>
+          <p>Site moderno, responsivo e otimizado para conversão, desenvolvido sob medida para seu negócio.</p>
+          <div class="service-features">
+            <span class="feature">Design Responsivo</span>
+            <span class="feature">SEO Otimizado</span>
+            <span class="feature">Carregamento Rápido</span>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+          </div>
+          <h3>Integração WhatsApp</h3>
+          <p>Facilite a comunicação com seus clientes através de integração direta com WhatsApp.</p>
+          <div class="service-features">
+            <span class="feature">Chat Direto</span>
+            <span class="feature">Automação</span>
+            <span class="feature">Atendimento 24h</span>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+          </div>
+          <h3>Identidade Visual</h3>
+          <p>Criação completa da sua marca com logo, cores e diretrizes visuais profissionais.</p>
+          <div class="service-features">
+            <span class="feature">Logotipo</span>
+            <span class="feature">Paleta de Cores</span>
+            <span class="feature">Manual da Marca</span>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+              <polyline points="3.27,6.96 12,12.01 20.73,6.96" />
+              <line x1="12" y1="22.08" x2="12" y2="12" />
+            </svg>
+          </div>
+          <h3>Gestão & Controle</h3>
+          <p>Ferramentas simples para organizar finanças, tarefas e atividades do seu negócio.</p>
+          <div class="service-features">
+            <span class="feature">Planilhas Personalizadas</span>
+            <span class="feature">Controle Financeiro</span>
+            <span class="feature">Gestão de Tarefas</span>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>CRM Simplificado</h3>
+          <p>Sistema básico para gerenciar seus clientes e acompanhar o relacionamento.</p>
+          <div class="service-features">
+            <span class="feature">Cadastro de Clientes</span>
+            <span class="feature">Histórico de Contatos</span>
+            <span class="feature">Follow-up</span>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
+          </div>
+          <h3>SEO & Conteúdo</h3>
+          <p>Otimização para buscadores e área de blog preparada para futuras publicações.</p>
+          <div class="service-features">
+            <span class="feature">Otimização SEO</span>
+            <span class="feature">Blog Integrado</span>
+            <span class="feature">Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="sobre" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Sobre Mim</h2>
+
+          <img width="200" height="200" src="https://avatars.githubusercontent.com/u/71414590?v=4" alt="">
+          <p>
+            Especialista em estruturação de negócios online, combinando design moderno,
+            tecnologia avançada e estratégias de marketing digital para criar uma presença
+            digital forte e eficiente.
+          </p>
+          <p>
+            Minha missão é transformar sua visão de negócio em uma realidade digital que
+            gera resultados, aumenta a credibilidade e facilita o relacionamento com seus clientes.
+          </p>
+          <div class="about-stats">
+            <div class="about-stat">
+              <div class="about-stat-number">5+</div>
+              <div class="about-stat-label">Anos de Experiência</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-number">10+</div>
+              <div class="about-stat-label">Clientes Satisfeitos</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-values">
+          <h3></h3>
+          <div class="values-list">
+            <div class="value-item">
+              <div class="value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+              </div>
+              <div class="value-content">
+                <h4>Foco em Resultados</h4>
+                <p>Cada projeto é desenvolvido com o objetivo de gerar resultados reais para seu negócio.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <div class="value-content">
+                <h4>Atendimento Personalizado</h4>
+                <p>Acompanhamento próximo e suporte dedicado durante todo o processo.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2" />
+                </svg>
+              </div>
+              <div class="value-content">
+                <h4>Agilidade</h4>
+                <p>Entrega rápida sem comprometer a qualidade e atenção aos detalhes.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22,4 12,14.01 9,11.01" />
+                </svg>
+              </div>
+              <div class="value-content">
+                <h4>Qualidade Garantida</h4>
+                <p>Padrões elevados de qualidade em todos os nossos serviços e entregas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contato" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Entre em Contato</h2>
+        <p>Pronto para começar seu projeto?
+          <br>Fale comigo e vamos transformar sua visão em realidade.
+        </p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Informações de Contato</h3>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+            </div>
+            <div class="contact-details">
+              <h4>WhatsApp</h4>
+              <p>+55 (31) 99178-6791</p>
+              <a href="https://wa.me/5531991786791" class="whatsapp-btn" target="_blank">
+                Conversar no WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <p>ivannatech@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div class="contact-details">
+              <h4>Localização</h4>
+              <p>Belo Horizonte, MG - Brasil</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <h4>Redes Sociais</h4>
+            <div class="social-icons">
+              <a href="https://github.com/ivannatech" target="_blank" class="social-link">
+                <svg fill="#ffffff" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                  data-name="Layer 1">
+                  <path
+                    d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z" />
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/ivanna-almeida/" target="_blank" class="social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect width="4" height="12" x="2" y="9" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/ivannatech/" target="_blank" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Negócio Online</h3>
+          <p>Transformando visões em realidade digital. Especialista em estruturação de negócios online.</p>
+          <div class="footer-social">
+            <a href="https://github.com/ivannatech" target="_blank" class="social-link">
+              <svg fill="#ffffff" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                data-name="Layer 1">
+                <path
+                  d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/ivanna-almeida/" target="_blank" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/ivannatech/" target="_blank" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Serviços</h4>
+          <ul class="footer-links">
+            <li><a href="#servicos">Website Profissional</a></li>
+            <li><a href="#servicos">Integração WhatsApp</a></li>
+            <li><a href="#servicos">Identidade Visual</a></li>
+            <li><a href="#servicos">Gestão & Controle</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Empresa</h4>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Cases de Sucesso</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <div class="footer-contact">
+            <p>ivannatech@gmail.com</p>
+            <p>+55 (31) 99178-6791</p>
+            <p>Belo Horizonte, MG - Brasil</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ivanna Almeida. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
