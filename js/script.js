@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // WhatsApp integration
 function openWhatsApp(message = '') {
-  const phone = '5511999999999'; // Replace with actual phone number
+  const phone = '5531991786791'; 
   const defaultMessage = message || 'Olá! Gostaria de saber mais sobre os serviços de estruturação de negócio online.';
   const encodedMessage = encodeURIComponent(defaultMessage);
   const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
